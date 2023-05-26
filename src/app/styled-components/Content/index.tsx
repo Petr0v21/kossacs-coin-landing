@@ -121,8 +121,10 @@ export const ContentStyled = styled.div`
         flex-direction: column;
         h4 {
           color: white;
+          font-size: 24px;
         }
         label {
+          font-size: 20px;
           color: white;
           text-align: start;
           padding-bottom: 1em;
@@ -159,6 +161,7 @@ export const ContentStyled = styled.div`
         align-items: center;
         label {
           max-width: 40em;
+          font-size: 20px;
         }
         .icons {
           display: flex;
@@ -170,6 +173,7 @@ export const ContentStyled = styled.div`
           }
           img {
             width: 80px;
+            cursor: pointer;
           }
         }
       }

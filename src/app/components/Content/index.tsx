@@ -16,15 +16,18 @@ export const Content = () => {
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              assumenda eum veniam a dolor nobis possimus corrupti! Nulla sit
-              laudantium officiis
+              Pepe is tired of watching everyone play hot potato with the
+              endless derivative Shiba Cum GME lonKishuTurbo Ass Floki Moon Inu
+              coins. The Inu’s have had their day. It’s time for the most
+              recognizable meme in the world to take his reign as king of the
+              memes.
             </label>
           </div>
           <div className="preview-secondery-content">
             <label>
-              Ipsum dignissimos repellendus adipisci nam optio. Quos, impedit.
-              Laborum.
+              Pepe is here to make memecoins great again. Launched stealth with
+              no presale, zero taxes, LP burnt and contract renounced, $PEPE is
+              a coin for the people, forever.
             </label>
           </div>
         </div>
@@ -91,10 +94,12 @@ export const Content = () => {
           />
           <div className="contacts-content-text">
             <label>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed odit
-              perferendis beatae quae sapiente obcaecati repudiandae ex. Minima,
-              nulla suscipit porro nobis velit nisi atque rem voluptatem quidem.
-              Doloribus, quod!
+              $pepe coin has no association with Matt Furie or his creation Pepe
+              the Frog. This token is simply paying homage to a meme we all love
+              and recognize. $PEPE is a meme coin with no intrinsic value or
+              expectation of financial return. There is no formal team or
+              roadmap. the coin is completely useless and for entertainment
+              purposes only.
             </label>
             <div className="icons">
               <div>

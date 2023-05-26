@@ -34,8 +34,12 @@ export const FooterWrapper = styled.div`
   .footer-nav-links {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
     font-weight: 550;
+    label {
+      cursor: pointer;
+    }
   }
 
   .media {
@@ -46,6 +50,7 @@ export const FooterWrapper = styled.div`
     img {
       width: 2.5em;
       height: auto;
+      cursor: pointer;
     }
     .soc-media {
       display: flex;

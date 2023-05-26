@@ -4,18 +4,46 @@ import Logo from "../../../static/images/Logo.svg";
 import TelegramIcon from "../../../static/images/TelegramIcon.svg";
 import TwiterIcon from "../../../static/images/TwitterIcon.svg";
 import FacebookIcon from "../../../static/images/FacebookIcon.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Footer = () => {
   return (
     <FooterWrapper>
       <div className="footer-title">
         <img alt="logo" className="logo" src={Logo} />
-        <h2>Kozak coin</h2>
+        <h2>Kossacs coin</h2>
       </div>
       <div className="footer-nav-links">
-        <label>Main info</label>
-        <label>Getting started</label>
-        <label>Community</label>
+        <Link
+          activeClass="active"
+          to="test1"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Main info</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="test1"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Getting started</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="test1"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Community</label>
+        </Link>
       </div>
       <div className="media">
         <div className="soc-media">
