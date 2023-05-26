@@ -94,7 +94,7 @@ export const Content = () => {
         </div>
       </div>
       <Roadmap />
-      <div className="contacts" id="test3">
+      <div className="contacts" id="test4">
         <h2>Connect to community</h2>
         <div className="contacts-content">
           <img

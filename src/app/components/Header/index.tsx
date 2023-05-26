@@ -43,6 +43,16 @@ export const Header: React.FC<{
           offset={50}
           duration={500}
         >
+          <label>Roadmap</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="test4"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           <label>Community</label>
         </Link>
 
@@ -80,12 +90,14 @@ export const HeaderForPhone: React.FC<{
       <label
         onClick={() => {
           setOpen(false);
-          scroll.scrollTo(800, {
-            duration: 1000,
-            delay: 100,
-            smooth: true,
-            spy: true,
-          });
+          setTimeout(() => {
+            const h1 = document.getElementById("test1")?.offsetHeight!;
+            scroll.scrollTo(h1, {
+              duration: 1000,
+              smooth: true,
+              spy: true,
+            });
+          }, 100);
         }}
       >
         Getting started
@@ -93,12 +105,32 @@ export const HeaderForPhone: React.FC<{
       <label
         onClick={() => {
           setOpen(false);
-          scroll.scrollTo(3000, {
-            duration: 1000,
-            delay: 100,
-            smooth: true,
-            spy: true,
-          });
+          setTimeout(() => {
+            const h1 = document.getElementById("test1")?.offsetHeight!;
+            const h2 = document.getElementById("test2")?.offsetHeight!;
+            scroll.scrollTo(h1 + h2, {
+              duration: 1000,
+              smooth: true,
+              spy: true,
+            });
+          }, 100);
+        }}
+      >
+        Roadmap
+      </label>
+      <label
+        onClick={() => {
+          setOpen(false);
+          setTimeout(() => {
+            const h1 = document.getElementById("test1")?.offsetHeight!;
+            const h2 = document.getElementById("test2")?.offsetHeight!;
+            const h3 = document.getElementById("test3")?.offsetHeight!;
+            scroll.scrollTo(h1 + h2 + h3, {
+              duration: 1000,
+              smooth: true,
+              spy: true,
+            });
+          }, 100);
         }}
       >
         Community

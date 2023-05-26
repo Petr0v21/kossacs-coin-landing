@@ -3,8 +3,15 @@ import { RoadmapStyledWrapper } from "../../styled-components/Roadmap";
 
 export const Roadmap = () => {
   return (
-    <RoadmapStyledWrapper>
+    <RoadmapStyledWrapper id="test3">
       <h2>Roadmap</h2>
+      <div className="roadmap-short-text">
+        <label>
+          All jokes aside, here is a rough sketch of $pepe path ahead. We dont
+          wan’t to give everything away on day 1, Expect surprises along the
+          way;
+        </label>
+      </div>
       <div className="steps">
         <div className="step">
           <h3>Phase 1</h3>

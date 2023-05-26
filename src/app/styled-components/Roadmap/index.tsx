@@ -1,8 +1,18 @@
 import styled from "styled-components";
 
 export const RoadmapStyledWrapper = styled.div`
+  padding: 5%;
+  .roadmap-short-text {
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    label {
+      font-size: 24px;
+      font-weight: 500;
+      max-width: 900px;
+    }
+  }
   .steps {
-    padding: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
