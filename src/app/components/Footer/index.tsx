@@ -11,7 +11,7 @@ export const Footer = () => {
     <FooterWrapper>
       <div className="footer-title">
         <img alt="logo" className="logo" src={Logo} />
-        <h2>Kossacs coin</h2>
+        <h2>Cossacs coin</h2>
       </div>
       <div className="footer-nav-links">
         <Link
