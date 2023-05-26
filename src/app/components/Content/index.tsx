@@ -34,15 +34,13 @@ export const Content = () => {
         </div>
 
         <div className="preview-button">
-          <label>
-            <a
-              href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Buy Cossacks
-            </a>
-          </label>
+          <a
+            href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <label>Buy Cossacks</label>
+          </a>
         </div>
       </div>
       <div className="get-start" id="test2">

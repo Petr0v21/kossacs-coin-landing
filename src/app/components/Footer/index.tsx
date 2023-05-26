@@ -26,7 +26,7 @@ export const Footer = () => {
         </Link>
         <Link
           activeClass="active"
-          to="test1"
+          to="test2"
           spy={true}
           smooth={true}
           offset={50}
@@ -36,7 +36,17 @@ export const Footer = () => {
         </Link>
         <Link
           activeClass="active"
-          to="test1"
+          to="test3"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Roadmap</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="test4"
           spy={true}
           smooth={true}
           offset={50}

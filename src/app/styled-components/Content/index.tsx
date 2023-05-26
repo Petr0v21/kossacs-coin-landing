@@ -46,13 +46,15 @@ export const ContentStyled = styled.div`
     .preview-button {
       display: flex;
       justify-content: center;
-      label {
-        a {
+      a {
+        cursor: pointer;
+        label {
           font-size: 22px;
           font-weight: 700;
           color: #263585;
+          cursor: pointer;
         }
-        width: 12em;
+        width: 16em;
         text-align: center;
         margin-top: 2em;
         padding: 1em 4em;
@@ -66,7 +68,6 @@ export const ContentStyled = styled.div`
           #ffd600 69.22%
         );
         transition: all 0.2s linear;
-        cursor: pointer;
         &:hover {
           opacity: 0.8;
         }
