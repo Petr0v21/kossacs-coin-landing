@@ -47,15 +47,18 @@ export const ContentStyled = styled.div`
       display: flex;
       justify-content: center;
       label {
+        a {
+          font-size: 22px;
+          font-weight: 700;
+          color: #263585;
+        }
         width: 12em;
         text-align: center;
         margin-top: 2em;
         padding: 1em 4em;
         border: 2px solid rgba(0, 0, 0, 0);
         border-radius: 10px;
-        font-size: 22px;
-        font-weight: 700;
-        color: #263585;
+
         background: linear-gradient(
           91.79deg,
           #ffd600 31.78%,
@@ -65,7 +68,7 @@ export const ContentStyled = styled.div`
         transition: all 0.2s linear;
         cursor: pointer;
         &:hover {
-          opacity: 0.7;
+          opacity: 0.8;
         }
       }
     }

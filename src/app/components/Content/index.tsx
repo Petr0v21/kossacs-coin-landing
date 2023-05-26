@@ -1,5 +1,6 @@
 import React from "react";
 import { ContentStyled } from "../../styled-components/Content";
+import { Roadmap } from "../Roadmap";
 import ImgKossacs from "../../../static/images/kossacs.png";
 import ImgTwiter from "../../../static/images/TwitterIcon.svg";
 import ImgTelegram from "../../../static/images/TelegramIcon.svg";
@@ -33,7 +34,15 @@ export const Content = () => {
         </div>
 
         <div className="preview-button">
-          <label>Buy Cossacks</label>
+          <label>
+            <a
+              href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buy Cossacks
+            </a>
+          </label>
         </div>
       </div>
       <div className="get-start" id="test2">
@@ -84,6 +93,7 @@ export const Content = () => {
           </div>
         </div>
       </div>
+      <Roadmap />
       <div className="contacts" id="test3">
         <h2>Connect to community</h2>
         <div className="contacts-content">

@@ -93,7 +93,7 @@ export const HeaderForPhone: React.FC<{
       <label
         onClick={() => {
           setOpen(false);
-          scroll.scrollTo(2400, {
+          scroll.scrollTo(3000, {
             duration: 1000,
             delay: 100,
             smooth: true,
