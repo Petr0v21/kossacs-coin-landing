@@ -8,6 +8,7 @@ export const RoadmapStyledWrapper = styled.div`
     img {
       width: 60%;
       max-width: 900px;
+      min-width: 320px;
       // position: relative;
     }
   }
