@@ -12,7 +12,7 @@ export const MainWrapper = styled.div`
     height: 60%;
     left: 5%;
     top: 20%;
-    // opacity: 0.8;
+    opacity: 0.5;
   }
 
   .coin {

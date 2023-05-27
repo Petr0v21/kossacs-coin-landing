@@ -130,9 +130,9 @@ export const ContentStyled = styled.div`
       gap: 5em;
       .number-block {
         padding: 0.5em 1em;
-        background: #ffd600;
+        background: rgb(169 169 169);
         border-radius: 10px;
-        color: #3672cb;
+        color: black;
         font-size: 42px;
         font-weight: 750;
       }
