@@ -120,11 +120,11 @@ export const ContentStyled = styled.div`
       gap: 5em;
       .number-block {
         padding: 0.5em 1em;
-        background: rgb(27 57 101);
         border-radius: 10px;
-        color: rgb(255 214 0);
         font-size: 42px;
         font-weight: 750;
+        background: rgb(255, 214, 0);
+        color: rgb(54, 114, 203);
       }
       .content {
         display: flex;
