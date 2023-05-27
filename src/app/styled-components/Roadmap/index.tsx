@@ -2,6 +2,15 @@ import styled from "styled-components";
 
 export const RoadmapStyledWrapper = styled.div`
   padding: 5%;
+  .roadmap-image {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 60%;
+      max-width: 900px;
+      // position: relative;
+    }
+  }
   .roadmap-short-text {
     padding: 2em 0;
     display: flex;

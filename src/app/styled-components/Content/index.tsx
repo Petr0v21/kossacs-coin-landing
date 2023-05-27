@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-// display: grid;
-//     grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
-//     grid-template-rows: auto;
-//     grid-gap: 1em;
-//     grid-template-areas:
-//       ". . title . ."
-//       ". main-content main-content . ."
-//       ". . secondery-content secondery-content ."
-//       ". . button . .";
-
 export const ContentStyled = styled.div`
   h2 {
     text-align: center;

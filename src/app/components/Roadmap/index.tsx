@@ -1,5 +1,6 @@
 import React from "react";
 import { RoadmapStyledWrapper } from "../../styled-components/Roadmap";
+import Bike from "../../../static/images/byciclewithoutbg.svg";
 
 export const Roadmap = () => {
   return (
@@ -11,6 +12,9 @@ export const Roadmap = () => {
           wan’t to give everything away on day 1, Expect surprises along the
           way;
         </label>
+      </div>
+      <div className="roadmap-image">
+        <img alt="bike" src={Bike} />
       </div>
       <div className="steps">
         <div className="step">
