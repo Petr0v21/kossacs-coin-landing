@@ -5,6 +5,16 @@ export const MainWrapper = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  .rune {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: 60%;
+    left: 5%;
+    top: 20%;
+    // opacity: 0.8;
+  }
+
   .coin {
     position: absolute;
     z-index: -1;
@@ -24,17 +34,17 @@ export const MainWrapper = styled.div`
     top: 70%;
     opacity: 0.7;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 720px) {
+    .rune {
+      display: none;
+    }
+
     .coin {
-      height: 47%;
-      top: 15%;
-      opacity: 0.6;
+      display: none;
     }
 
     .coin_group {
-      height: 250px;
-      top: 60%;
-      opacity: 0.6;
+      display: none;
     }
   }
 `;

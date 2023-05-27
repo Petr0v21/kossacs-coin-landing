@@ -20,7 +20,6 @@ export const ContentStyled = styled.div`
   .preview {
     display: flex;
     flex-direction: column;
-    min-height: calc(90% + 250px);
     padding: 0 10% 5% 10%;
     gap: 3em;
     .preview-title {
@@ -31,16 +30,22 @@ export const ContentStyled = styled.div`
     .preview-content {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 5em;
-      width: 80%;
+      width: 100%;
       .preview-main-content {
         width: 100%;
         display: flex;
+        justify-content: center;
+      }
+      .logo-for-mobile {
+        max-width: 400px;
+        min-width: 200px;
       }
       .preview-secondery-content {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
       }
     }
     .preview-button {
@@ -49,10 +54,12 @@ export const ContentStyled = styled.div`
       a {
         cursor: pointer;
         label {
-          font-size: 22px;
-          font-weight: 700;
-          color: #263585;
+          font-family: Norse;
+          font-size: 30px;
+          font-weight: 900;
+          color: rgb(54, 114, 203);
           cursor: pointer;
+          letter-spacing: 0.1em;
         }
         width: 16em;
         text-align: center;
@@ -78,12 +85,13 @@ export const ContentStyled = styled.div`
       font-size: 20px;
       font-weight: 450;
     }
-    @media (max-width: 560px) {
+    @media (max-width: 720px) {
+      gap: 1em;
       .preview-content {
         display: flex;
         flex-direction: column;
         aligh-item: center;
-        gap: 5em;
+        gap: 1em;
         width: 100%;
         .preview-main-content {
           width: 100%;
@@ -100,6 +108,14 @@ export const ContentStyled = styled.div`
         label {
           width: 8em;
         }
+      }
+      label {
+        width: 100%;
+      }
+    }
+    @media (min-width: 720px) {
+      .logo-for-mobile {
+        display: none;
       }
     }
   }
@@ -124,7 +140,8 @@ export const ContentStyled = styled.div`
         display: flex;
         flex-direction: column;
         h4 {
-          color: white;
+          font-family: Norse;
+          color: #3672cb;
           font-size: 24px;
         }
         label {
