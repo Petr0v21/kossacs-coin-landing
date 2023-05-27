@@ -8,6 +8,7 @@ import ImgFacebook from "../../../static/images/FacebookIcon.svg";
 import ImgT from "../../../static/images/ImageT.svg";
 import ImgE from "../../../static/images/ImageE.svg";
 import ImgO from "../../../static/images/ImageO.svg";
+import Logo from "../../../static/images/Logo.svg";
 
 export const Content = () => {
   return (
@@ -24,6 +25,8 @@ export const Content = () => {
               memes.
             </label>
           </div>
+          <img alt="logo" src={Logo} className="logo-for-mobile" />
+
           <div className="preview-secondery-content">
             <label>
               Pepe is here to make memecoins great again. Launched stealth with

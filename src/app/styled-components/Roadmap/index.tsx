@@ -26,6 +26,7 @@ export const RoadmapStyledWrapper = styled.div`
       h3 {
         margin: 0;
         padding: 0;
+        font-family: Norse;
         font-size: 28px;
         font-weight: 750;
         color: #3672cb;
