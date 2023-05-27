@@ -141,7 +141,7 @@ export const ContentStyled = styled.div`
         flex-direction: column;
         h4 {
           font-family: Norse;
-          color: #3672cb;
+          color: rgb(255 214 0);
           font-size: 24px;
         }
         label {
