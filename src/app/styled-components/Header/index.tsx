@@ -37,13 +37,33 @@ export const HeaderWrapper = styled.div`
         opacity: 0.7;
       }
     }
+    .header-button {
+      a label {
+        color: rgb(54, 114, 203);
+        cursor: pointer;
+        letter-spacing: 0.1em;
+        padding: 0.4em 1.5em;
+        font-family: Norse;
+        font-size: 24px;
+        border-radius: 12px;
+        background: linear-gradient(
+          91.79deg,
+          #ffd600 31.78%,
+          rgba(255, 255, 255, 0.88) 50.76%,
+          #ffd600 69.22%
+        );
+        transition: all 0.2s linear;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
   }
 
   @media ${device.mobileS} {
     label {
       display: none;
     }
-
     .logo {
       display: block;
     }
@@ -103,6 +123,28 @@ export const HeaderForPhoneStyled = styled.div`
     transition: all 0.2s linear;
     &:hover {
       opacity: 0.7;
+    }
+  }
+  .header-button {
+    padding: 2em 0;
+    a label {
+      color: rgb(54, 114, 203);
+      cursor: pointer;
+      letter-spacing: 0.1em;
+      padding: 0.4em 2em;
+      font-family: Norse;
+      font-size: 32px;
+      border-radius: 12px;
+      background: linear-gradient(
+        91.79deg,
+        #ffd600 31.78%,
+        rgba(255, 255, 255, 0.88) 50.76%,
+        #ffd600 69.22%
+      );
+      transition: all 0.2s linear;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 `;

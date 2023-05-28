@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { RoadmapStyledWrapper } from "../../styled-components/Roadmap";
 import Bike from "../../../static/images/byciclewithoutbg.svg";
 
-export const Roadmap = () => {
+export const Roadmap: React.FC = () => {
+  const [animate, setAnimate] = useState(false);
+
+  const handleScrollAnimation = () => {
+    const element = document.getElementById("test3");
+    if (element) {
+      const rect = element.getBoundingClientRect();
+      const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
+      setAnimate(isVisible);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScrollAnimation);
+    return () => {
+      window.removeEventListener("scroll", handleScrollAnimation);
+    };
+  }, []);
+
   return (
-    <RoadmapStyledWrapper id="test3">
+    <RoadmapStyledWrapper id="test3" animate={animate}>
       <h2>Roadmap</h2>
       <div className="roadmap-short-text">
         <label>

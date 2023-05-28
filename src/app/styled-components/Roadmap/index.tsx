@@ -1,15 +1,33 @@
-import styled from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
-export const RoadmapStyledWrapper = styled.div`
-  padding: 5%;
+const fadeIn = keyframes`
+  from {
+    right: -50%;
+  }
+  to {
+    right: 0;
+  }
+`;
+
+export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
+  // padding: 5%;
   .roadmap-image {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     img {
+      ${(props) =>
+        props.animate &&
+        css`
+          animation: ${fadeIn} 1s ease-out;
+        `}
+      position: relative;
+      // animation: example 2s;
+      // animation-timing-function: linear;
       width: 60%;
+      overflow: hidden;
       max-width: 900px;
       min-width: 320px;
-      // position: relative;
     }
   }
   .roadmap-short-text {
@@ -45,7 +63,7 @@ export const RoadmapStyledWrapper = styled.div`
         p {
           color: #3672cb;
         }
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 500;
       }
     }

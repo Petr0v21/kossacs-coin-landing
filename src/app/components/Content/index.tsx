@@ -4,7 +4,6 @@ import { Roadmap } from "../Roadmap";
 import ImgKossacs from "../../../static/images/kossacs.png";
 import ImgTwiter from "../../../static/images/TwitterIcon.svg";
 import ImgTelegram from "../../../static/images/TelegramIcon.svg";
-import ImgFacebook from "../../../static/images/FacebookIcon.svg";
 import ImgT from "../../../static/images/ImageT.svg";
 import ImgE from "../../../static/images/ImageE.svg";
 import ImgO from "../../../static/images/ImageO.svg";
@@ -14,7 +13,7 @@ export const Content = () => {
   return (
     <ContentStyled>
       <div className="preview" id="test1">
-        <h2 className="preview-title">Cossacs Coin</h2>
+        <h2 className="preview-title">Cossacs</h2>
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
@@ -116,7 +115,6 @@ export const Content = () => {
               <div>
                 <img alt="twitter" src={ImgTwiter} />
                 <img alt="telegram" src={ImgTelegram} />
-                <img alt="facebook" src={ImgFacebook} />
               </div>
               <div>
                 <img alt="T" src={ImgT} />

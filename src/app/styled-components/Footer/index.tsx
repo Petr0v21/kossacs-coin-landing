@@ -10,10 +10,17 @@ export const FooterWrapper = styled.div`
   gap: 2em;
   justify-content: space-between;
   align-items: center;
+  .copyright {
+    font-family: Norse;
+    gont-size: 12px;
+    color: white;
+    opacity: 0.8;
+  }
   .footer-title {
     display: flex;
     align-items: center;
     gap: 1em;
+
     .logo {
       //   width: 5em;
       //   height: auto;
@@ -35,6 +42,7 @@ export const FooterWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1em;
     font-weight: 550;
     label {

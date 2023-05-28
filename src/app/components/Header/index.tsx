@@ -55,6 +55,15 @@ export const Header: React.FC<{
         >
           <label>Community</label>
         </Link>
+        <div className="header-button">
+          <a
+            href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <label>Buy</label>
+          </a>
+        </div>
 
         <HeaderForPhoneIcon
           className="header-icon"
@@ -135,6 +144,15 @@ export const HeaderForPhone: React.FC<{
       >
         Community
       </label>
+      <div className="header-button">
+        <a
+          href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <label>Buy</label>
+        </a>
+      </div>
     </HeaderForPhoneStyled>
   );
 };

@@ -7,6 +7,11 @@
 }
 
 @font-face {
+  font-family: Caligo Regular; /* Гарнитура шрифта */
+  src: url(../static/font_Caligo1.0.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
   font-family: Norse; /* Гарнитура шрифта */
   src: url(../static/Norsebold.otf); /* Путь к файлу со шрифтом */
 }
@@ -44,6 +49,7 @@ h3 {
 label {
   color: white;
   text-align: center;
+  font-family: Caligo Regular;
 }
 
 a {

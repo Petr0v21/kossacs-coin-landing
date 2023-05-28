@@ -19,9 +19,9 @@ export const MainWrapper = styled.div`
     position: absolute;
     z-index: -1;
     width: auto;
-    height: 47%;
+    height: 60%;
     right: 0;
-    top: 25%;
+    top: 15%;
     opacity: 0.8;
   }
 

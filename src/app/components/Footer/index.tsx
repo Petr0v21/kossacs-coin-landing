@@ -11,8 +11,9 @@ export const Footer = () => {
     <FooterWrapper>
       <div className="footer-title">
         <img alt="logo" className="logo" src={Logo} />
-        <h2>Cossacs coin</h2>
+        <h2>Cossacs</h2>
       </div>
+      <label className="copyright">© 2023 by PEPE. All rights reserved!</label>
       <div className="footer-nav-links">
         <Link
           activeClass="active"
@@ -59,7 +60,6 @@ export const Footer = () => {
         <div className="soc-media">
           <img alt="TelegramIcon" src={TelegramIcon} />
           <img alt="TwiterIcon" src={TwiterIcon} />
-          <img alt="FacebookIcon" src={FacebookIcon} />
         </div>
       </div>
     </FooterWrapper>
