@@ -4,7 +4,7 @@ import { Footer } from "./app/components/Footer";
 import { Content } from "./app/components/Content";
 import { MainWrapper } from "./app/styled-components/Main";
 import Coin from "./static/images/Coin.svg";
-import Rune from "./static/images/Rune1.svg";
+import Rune from "./static/images/Rune_final.svg";
 import GroupCoin from "./static/images/Group_coins.svg";
 import "./styles/main.css";
 

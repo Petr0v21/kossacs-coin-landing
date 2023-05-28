@@ -9,9 +9,9 @@ export const MainWrapper = styled.div`
     position: absolute;
     z-index: -1;
     width: auto;
-    height: 60%;
+    height: 40%;
     left: 5%;
-    top: 20%;
+    top: 40%;
     opacity: 0.5;
   }
 
@@ -32,7 +32,7 @@ export const MainWrapper = styled.div`
     height: 250px;
     right: 0;
     top: 70%;
-    opacity: 0.7;
+    opacity: 0.9;
   }
   @media (max-width: 720px) {
     .rune {
