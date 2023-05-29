@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.ttitle{
+  text-align: center !important;
+}
+
 .graph {
   border-radius: 50%;
   border: 5px solid gold;
@@ -35,6 +39,7 @@ h4 {
   display: flex;
   flex-direction: row;
   gap: 42px;
+  justify-content: center;
 }
 
 .tokenomicsInfo {
