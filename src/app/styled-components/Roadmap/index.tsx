@@ -10,7 +10,7 @@ const fadeIn = keyframes`
 `;
 
 export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
-  // padding: 5%;
+  padding: 5% 0;
   .roadmap-image {
     display: flex;
     justify-content: center;
@@ -57,11 +57,11 @@ export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
         font-family: Norse;
         font-size: 28px;
         font-weight: 750;
-        color: #3672cb;
+        color: black;
       }
       label {
         p {
-          color: #3672cb;
+          color: black;
         }
         font-size: 24px;
         font-weight: 500;

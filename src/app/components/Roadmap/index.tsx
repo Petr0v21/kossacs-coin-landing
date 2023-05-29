@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { RoadmapStyledWrapper } from "../../styled-components/Roadmap";
-import Bike from "../../../static/images/byciclewithoutbg.svg";
+import Bike from "../../../static/images/bycicleWithBorder.png";
 
 export const Roadmap: React.FC = () => {
   const [animate, setAnimate] = useState(false);

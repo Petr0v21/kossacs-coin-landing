@@ -43,11 +43,12 @@ export const ContentStyled = styled.div`
       justify-content: center;
       a {
         cursor: pointer;
+        box-shadow: 10px 10px 10px #7A6700;
         label {
           font-family: Norse;
           font-size: 30px;
           font-weight: 900;
-          color: rgb(54, 114, 203);
+          color: black;
           cursor: pointer;
           letter-spacing: 0.1em;
         }
@@ -123,8 +124,13 @@ export const ContentStyled = styled.div`
         border-radius: 10px;
         font-size: 42px;
         font-weight: 750;
-        background: rgb(255, 214, 0);
-        color: rgb(54, 114, 203);
+        background: linear-gradient(
+          91.79deg,
+          #ffd600 31.78%,
+          rgba(255, 255, 255, 0.88) 50.76%,
+          #ffd600 69.22%
+        );
+        color: black;
       }
       .content {
         display: flex;
