@@ -48,7 +48,7 @@ h4 {
   justify-content: center;
 }
 
-@media (max-width: 782px) {
+@media (max-width: 1024px) {
   .tokenomicsBody {
     flex-direction: column;
     gap: 2em;
