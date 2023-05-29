@@ -16,7 +16,7 @@
   */
   max-height: 386px;
   width: fit-content;
-  margin: auto;
+  max-width: 80%;
 }
 
 h4 {
@@ -40,6 +40,7 @@ h4 {
 .tokenomicsInfo {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .tokenomicsInfoContent {
@@ -49,15 +50,20 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
+  flex: auto;
+  max-width: 80%;
   & p {
     margin-top: 0;
   }
+  
 }
 
 @media (max-width: 768px) {
   .tokenomicsBody {
     flex-direction: column;
+  }
+  .graph{ 
+    margin: auto;
   }
   .tokenomicsInfoContent {
     align-items: center;
