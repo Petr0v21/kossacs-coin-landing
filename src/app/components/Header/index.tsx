@@ -33,7 +33,7 @@ export const Header: React.FC<{
           offset={50}
           duration={500}
         >
-          <label>Build your Army</label>
+          <label>Collect your Army</label>
         </Link>
         <Link
           activeClass="active"
@@ -119,7 +119,7 @@ export const HeaderForPhone: React.FC<{
           }, 100);
         }}
       >
-        Build your Army
+        Collect your Army
       </label>
       <label
         onClick={() => {

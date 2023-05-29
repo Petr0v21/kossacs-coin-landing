@@ -10,7 +10,6 @@ const Tokenomics: React.FC = () => {
         Total supply: <span className="spec">444,444,444,444,444</span>
       </h4>
       <div className="tokenomicsBody">
-        <img alt="graph" src={Graph} className="graph" />
         <div className="tokenomicsInfo">
           <div className="tokenomicsInfoContent">
             <p>
@@ -27,6 +26,7 @@ const Tokenomics: React.FC = () => {
             </p>
           </div>
         </div>
+        <img alt="graph" src={Graph} className="graph" />
       </div>
     </div>
   );
