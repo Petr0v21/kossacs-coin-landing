@@ -47,7 +47,7 @@ export const Content = () => {
         </div>
       </div>
       <div className="get-start" id="test2">
-        <h2>Build your Army</h2>
+        <h2>Collect your Army</h2>
         <div className="row-start">
           <div className="number-block">1</div>
           <div className="content">
