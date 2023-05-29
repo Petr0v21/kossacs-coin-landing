@@ -11,20 +11,14 @@
 }
 
 .graph {
+  display: block;
   border-radius: 50%;
   border: 5px solid gold;
-  /* max-width: 90%;
-  
-  min-width: 320px;
-  margin: auto;
-  */
   max-height: 386px;
-  width: fit-content;
-  max-width: 80%;
+  width: auto;
 }
 
 h4 {
-  /* text-align: center; */
   color: white;
   font-family: "Norse";
   letter-spacing: 0.1em;
@@ -65,10 +59,11 @@ h4 {
 
 @media (max-width: 768px) {
   .tokenomicsBody {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .graph{ 
     margin: auto;
+    max-height: 240px;
   }
   .tokenomicsInfoContent {
     align-items: center;
