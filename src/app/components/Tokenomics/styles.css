@@ -50,9 +50,9 @@ h4 {
 }
 
 @media (max-width: 1000px) {
-  /* .tokenomicsBody {
+  .tokenomicsBody {
     flex-direction: column;
-  } */
+  }
   .tokenomicsInfoContent {
     align-items: center;
     & p {
