@@ -128,7 +128,7 @@ export const Content = () => {
                   <img alt="T" src={ImgT} />
                 </a>
                 <a
-                  href="https://etherscan.io/token/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7?a=0xdf203f5aa930cb1161a11a9b921d7e4559b2b4f3"
+                  href="https://etherscan.io/token/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
