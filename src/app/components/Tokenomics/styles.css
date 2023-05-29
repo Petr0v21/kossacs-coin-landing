@@ -10,11 +10,12 @@
   border-radius: 50%;
   border: 5px solid gold;
   /* max-width: 90%;
-  width: 500px;
+  
   min-width: 320px;
   margin: auto;
   */
   max-height: 386px;
+  width: fit-content;
 }
 
 h4 {
