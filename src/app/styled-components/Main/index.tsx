@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+`;
 
 export const MainWrapper = styled.div`
   width: 100%;
@@ -13,6 +25,9 @@ export const MainWrapper = styled.div`
     left: 5%;
     top: 40%;
     opacity: 0.5;
+    animation: ${fadeIn} 4s ease-out;
+    animation-iteration-count: infinite;
+    // animation-delay: 2s;
   }
 
   .coin {

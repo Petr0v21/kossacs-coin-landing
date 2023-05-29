@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.ttitle{
+.ttitle {
   text-align: center !important;
 }
 
@@ -27,6 +27,22 @@ h4 {
 
 .spec {
   color: rgb(255, 214, 0);
+}
+/* .tokenomicsInfoContent p a {
+  text-decoration: underline;
+  color: rgb(255, 214, 0);
+  padding-bottom: 0.1em;
+} */
+
+.tokenomicsInfoContent p a::after {
+  color: rgb(255, 214, 0);
+  content: "⤴";
+  position: relative;
+  bottom: 1.1em;
+  left: 0.2em;
+  font-size: 14px;
+  width: 8px;
+  height: 8px;
 }
 
 .tokenomicsBody {
@@ -54,14 +70,13 @@ h4 {
   & p {
     margin-top: 0;
   }
-  
 }
 
 @media (max-width: 768px) {
   .tokenomicsBody {
     flex-direction: column-reverse;
   }
-  .graph{ 
+  .graph {
     margin: auto;
     max-height: 240px;
   }

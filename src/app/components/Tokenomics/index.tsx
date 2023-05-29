@@ -13,13 +13,44 @@ const Tokenomics: React.FC = () => {
         <div className="tokenomicsInfo">
           <div className="tokenomicsInfoContent">
             <p>
-              LP supply: <span className="spec">422,222,222,222,222</span>
+              <a
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="spec">LP</span>
+              </a>{" "}
+              supply: <span className="spec">422,222,222,222,222</span>
             </p>
             <p>
-              <span className="spec">5%</span> allocated for community
-              development purposes.
+              <a
+                href="https://etherscan.io/token/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7?a=0xdf203f5aa930cb1161a11a9b921d7e4559b2b4f3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="spec">5% allocated</span>
+              </a>{" "}
+              for community development purposes.
             </p>
-            <p>LP tokens burnt, contract renounced.</p>
+            <p>
+              LP tokens{" "}
+              <a
+                href="https://etherscan.io/tx/0x233a5ee41d4771cce909dd030c8b9436f08d3efc10dc8d02c5f4f13451244a27"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="spec">burnt</span>
+              </a>{" "}
+              , contract{" "}
+              <a
+                href="https://etherscan.io/tx/0x3dd72d98c8dca1430b3a004e17f1966b4789085a22632da37d88efe84430caeb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="spec">renounced</span>
+              </a>
+              .
+            </p>
             <p>
               No taxes, GoPlus Token Security{" "}
               <span className="spec">Rating A+++</span>
