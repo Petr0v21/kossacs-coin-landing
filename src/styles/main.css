@@ -25,6 +25,7 @@ body {
   margin: 0;
   font-family: Hellas Dust Cyrillic;
   background-color: rgb(0, 0, 0);
+  font-size: 24px;
 }
 .main-content {
   width: 100vw;
@@ -46,7 +47,7 @@ h3 {
   text-align: center;
 }
 
-label {
+p, label {
   color: white;
   text-align: center;
   font-family: Caligo Regular;

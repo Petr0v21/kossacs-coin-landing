@@ -1,13 +1,14 @@
 import React from "react";
 import { ContentStyled } from "../../styled-components/Content";
 import { Roadmap } from "../Roadmap";
-import ImgKossacs from "../../../static/images/kossacs.png";
+import ImgKossacs from "../../../static/images/CossacksWithBorder.png";
 import ImgTwiter from "../../../static/images/TwitterIcon.svg";
 import ImgTelegram from "../../../static/images/TelegramIcon.svg";
 import ImgT from "../../../static/images/ImageT.svg";
 import ImgE from "../../../static/images/ImageE.svg";
 import ImgO from "../../../static/images/ImageO.svg";
 import Logo from "../../../static/images/Logo.svg";
+import Tokenomics from '../Tokenomics'
 
 export const Content = () => {
   return (
@@ -94,6 +95,7 @@ export const Content = () => {
         </div>
       </div>
       <Roadmap />
+      <Tokenomics />
       <div className="contacts" id="test4">
         <h2>Connect to community</h2>
         <div className="contacts-content">
@@ -113,13 +115,13 @@ export const Content = () => {
             </label>
             <div className="icons">
               <div>
-                <img alt="twitter" src={ImgTwiter} />
-                <img alt="telegram" src={ImgTelegram} />
-              </div>
-              <div>
                 <img alt="T" src={ImgT} />
                 <img alt="E" src={ImgE} />
                 <img alt="O" src={ImgO} />
+              </div>
+              <div>
+                <img alt="twitter" src={ImgTwiter} />
+                <img alt="telegram" src={ImgTelegram} />
               </div>
             </div>
           </div>

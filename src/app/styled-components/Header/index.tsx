@@ -38,8 +38,10 @@ export const HeaderWrapper = styled.div`
       }
     }
     .header-button {
+      box-shadow: 10px 10px 10px #7A6700;
+      border-radius: 12px;
       a label {
-        color: rgb(54, 114, 203);
+        color: black;
         cursor: pointer;
         letter-spacing: 0.1em;
         padding: 0.4em 1.5em;
@@ -128,7 +130,7 @@ export const HeaderForPhoneStyled = styled.div`
   .header-button {
     padding: 2em 0;
     a label {
-      color: rgb(54, 114, 203);
+      color: black;
       cursor: pointer;
       letter-spacing: 0.1em;
       padding: 0.4em 2em;
