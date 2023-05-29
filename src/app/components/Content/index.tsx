@@ -8,7 +8,12 @@ import ImgT from "../../../static/images/ImageT.svg";
 import ImgE from "../../../static/images/ImageE.svg";
 import ImgO from "../../../static/images/ImageO.svg";
 import Logo from "../../../static/images/Logo.svg";
-import Tokenomics from '../Tokenomics'
+import Instagram from "../../../static/images/Instagram.svg";
+import Mail from "../../../static/images/Mail.svg";
+import Spotify from "../../../static/images/Spotify - Original.svg";
+import TikTok from "../../../static/images/TikTok - Original.svg";
+import YouTube from "../../../static/images/YouTube - Original.svg";
+import Tokenomics from "../Tokenomics";
 
 export const Content = () => {
   return (
@@ -115,13 +120,81 @@ export const Content = () => {
             </label>
             <div className="icons">
               <div>
-                <img alt="T" src={ImgT} />
-                <img alt="E" src={ImgE} />
-                <img alt="O" src={ImgO} />
+                <a
+                  href="https://www.dextools.io/app/en/ether/pair-explorer/0xa6e477acdeee7204ee72ef006d9fe7f080b7b4e2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="T" src={ImgT} />
+                </a>
+                <a
+                  href="https://etherscan.io/token/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7?a=0xdf203f5aa930cb1161a11a9b921d7e4559b2b4f3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="E" src={ImgE} />
+                </a>
+                <a
+                  href="https://app.uniswap.org/#/tokens/ethereum/0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="O" src={ImgO} />
+                </a>
+                <a
+                  href="https://twitter.com/0xCossacks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="twitter" src={ImgTwiter} />
+                </a>
               </div>
               <div>
-                <img alt="twitter" src={ImgTwiter} />
-                <img alt="telegram" src={ImgTelegram} />
+                <a
+                  href="https://t.me/CossacksETH"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="telegram" src={ImgTelegram} />
+                </a>
+                <a
+                  href="https://instagram.com/0xCossacks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <img alt="instagram" src={Instagram} />
+                </a>
+                <a
+                  href="https://tiktok.com/@0xcossacks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="Tiktok" src={TikTok} />
+                </a>
+                <a
+                  href="https://youtu.be/jIMjgNDwTxg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="YouTube" src={YouTube} />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://open.spotify.com/album/2VtkbKUooQ1aMoPHeVBOxM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="Spotify" src={Spotify} />
+                </a>
+                <a
+                  href="mailto:ceo@cossacks.vip"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img alt="Mail" src={Mail} />
+                </a>
               </div>
             </div>
           </div>

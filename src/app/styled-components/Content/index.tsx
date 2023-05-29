@@ -43,7 +43,7 @@ export const ContentStyled = styled.div`
       justify-content: center;
       a {
         cursor: pointer;
-        box-shadow: 10px 10px 10px #7A6700;
+        box-shadow: 10px 10px 10px #7a6700;
         label {
           font-family: Norse;
           font-size: 30px;
@@ -193,10 +193,13 @@ export const ContentStyled = styled.div`
           img {
             width: 80px;
             cursor: pointer;
+            @media (max-width: 524px) {
+              width: 40px;
+            }
           }
         }
       }
-      @media (max-width: 1054px) {
+      @media (max-width: 1240px) {
         align-items: center;
         flex-direction: column;
         gap: 2em;
