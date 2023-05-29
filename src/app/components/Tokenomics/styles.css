@@ -34,6 +34,14 @@ h4 {
   padding-bottom: 0.1em;
 } */
 
+.tokenomicsInfoContent p a {
+  transition: all 0.2s linear;
+}
+
+.tokenomicsInfoContent p a:hover {
+  opacity: 0.6;
+}
+
 .tokenomicsInfoContent p a::after {
   color: rgb(255, 214, 0);
   content: "⤴";

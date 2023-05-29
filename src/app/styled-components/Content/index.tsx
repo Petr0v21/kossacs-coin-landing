@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const ContentStyled = styled.div`
+  .disclaimer {
+    padding: 2em 5%;
+    opacity: 0.8;
+    cont-size: 24px;
+  }
   h2 {
     text-align: center;
     font-size: 36px;

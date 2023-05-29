@@ -26,9 +26,9 @@ export const Roadmap: React.FC = () => {
       <h2>Roadmap</h2>
       <div className="roadmap-short-text">
         <label>
-          All jokes aside, here is a rough sketch of $pepe path ahead. We dont
-          wan’t to give everything away on day 1, Expect surprises along the
-          way;
+          All jokes aside, here is a rough sketch of $cossacs path ahead. We
+          dont wan’t to give everything away on day 1, Expect surprises along
+          the way;
         </label>
       </div>
       <div className="roadmap-image">
@@ -56,7 +56,11 @@ export const Roadmap: React.FC = () => {
           <label>
             <p> - Get $CSKS Trending on Twitter</p>
             <p> - CEX Listings</p>
-            <p> - Pledge to donate 2T coins to Cossacks Warriors fighting for freedom in Ukraine</p>
+            <p>
+              {" "}
+              - Pledge to donate 2T coins to Cossacks Warriors fighting for
+              freedom in Ukraine
+            </p>
             <p> - Army: 100,000+ holders</p>
           </label>
         </div>

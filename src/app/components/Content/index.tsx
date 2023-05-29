@@ -23,7 +23,7 @@ export const Content = () => {
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
-              Pepe is tired of watching everyone play hot potato with the
+              Cossacs is tired of watching everyone play hot potato with the
               endless derivative Shiba Cum GME lonKishuTurbo Ass Floki Moon Inu
               coins. The Inu’s have had their day. It’s time for the most
               recognizable meme in the world to take his reign as king of the
@@ -34,9 +34,9 @@ export const Content = () => {
 
           <div className="preview-secondery-content">
             <label>
-              Pepe is here to make memecoins great again. Launched stealth with
-              no presale, zero taxes, LP burnt and contract renounced, $PEPE is
-              a coin for the people, forever.
+              Cossacs is here to make memecoins great again. Launched stealth
+              with no presale, zero taxes, LP burnt and contract renounced,
+              $PEPE is a coin for the people, forever.
             </label>
           </div>
         </div>
@@ -82,7 +82,7 @@ export const Content = () => {
             <label>
               connect to Uniswap. Go to app.uniswap.org in google chrome or on
               the browser inside your Metamask app. Connect your wallet. Paste
-              the $PEPE token address into Uniswap, select Pepe, and confirm.
+              the $PEPE token address into Uniswap, select Cossacs, and confirm.
               When Metamask prompts you for a wallet signature, sign.
             </label>
           </div>
@@ -111,11 +111,11 @@ export const Content = () => {
           />
           <div className="contacts-content-text">
             <label>
-              $pepe coin has no association with Matt Furie or his creation Pepe
-              the Frog. This token is simply paying homage to a meme we all love
-              and recognize. $PEPE is a meme coin with no intrinsic value or
-              expectation of financial return. There is no formal team or
-              roadmap. the coin is completely useless and for entertainment
+              $cossacs coin has no association with Matt Furie or his creation
+              Cossacs the Frog. This token is simply paying homage to a meme we
+              all love and recognize. $PEPE is a meme coin with no intrinsic
+              value or expectation of financial return. There is no formal team
+              or roadmap. the coin is completely useless and for entertainment
               purposes only.
             </label>
             <div className="icons">
@@ -200,6 +200,12 @@ export const Content = () => {
           </div>
         </div>
       </div>
+      <label className="disclaimer">
+        Disclaimer: $CSKS coin has no association with the cartoon or PC game.
+        This token is simply a meme coin with no intrinsic value or expectation
+        of financial return. There is no formal team or roadmap. the coin is
+        completely useless and for entertainment purposes only.
+      </label>
     </ContentStyled>
   );
 };
