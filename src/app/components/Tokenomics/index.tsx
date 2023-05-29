@@ -6,7 +6,7 @@ const Tokenomics: React.FC = () => {
   return (
     <div className="tokenomics" id="tokenomics">
       <h2>Tokenomics</h2>
-      <h4>
+      <h4 className="ttitle">
         Total supply: <span className="spec">444,444,444,444,444</span>
       </h4>
       <div className="tokenomicsBody">
