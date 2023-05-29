@@ -66,7 +66,7 @@ export const FooterWrapper = styled.div`
     }
   }
 
-  @media ${device.mobileS} {
+  @media (max-width: 782px) {
     flex-direction: column;
     .media {
       flex-direction: column;

@@ -33,7 +33,7 @@ export const Header: React.FC<{
           offset={50}
           duration={500}
         >
-          <label>Getting started</label>
+          <label>Build your Army</label>
         </Link>
         <Link
           activeClass="active"
@@ -44,6 +44,16 @@ export const Header: React.FC<{
           duration={500}
         >
           <label>Roadmap</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="tokenomics"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Tokenomics</label>
         </Link>
         <Link
           activeClass="active"
@@ -109,7 +119,7 @@ export const HeaderForPhone: React.FC<{
           }, 100);
         }}
       >
-        Getting started
+        Build your Army
       </label>
       <label
         onClick={() => {
@@ -135,6 +145,24 @@ export const HeaderForPhone: React.FC<{
             const h2 = document.getElementById("test2")?.offsetHeight!;
             const h3 = document.getElementById("test3")?.offsetHeight!;
             scroll.scrollTo(h1 + h2 + h3, {
+              duration: 1000,
+              smooth: true,
+              spy: true,
+            });
+          }, 100);
+        }}
+      >
+        Tokenomics
+      </label>
+      <label
+        onClick={() => {
+          setOpen(false);
+          setTimeout(() => {
+            const h1 = document.getElementById("test1")?.offsetHeight!;
+            const h2 = document.getElementById("test2")?.offsetHeight!;
+            const h3 = document.getElementById("test3")?.offsetHeight!;
+            const h4 = document.getElementById("tokenomics")?.offsetHeight!;
+            scroll.scrollTo(h1 + h2 + h3 + h4, {
               duration: 1000,
               smooth: true,
               spy: true,

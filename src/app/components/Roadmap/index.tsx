@@ -36,33 +36,28 @@ export const Roadmap: React.FC = () => {
       </div>
       <div className="steps">
         <div className="step">
-          <h3>Phase 1</h3>
+          <h3>War I</h3>
           <label>
-            <p> - Launch</p>
-            <p> - CoinGecko/ Coinmarketcap</p>
-            <p> - Listings 1,000+ Holders </p>
-            <p> - Get $PEPE Trending on twitter with our memetic power</p>
+            <p> - Token Launch</p>
+            <p> - Website</p>
+            <p> - Army Base </p>
           </label>
         </div>
         <div className="step">
-          <h3>Phase 2</h3>
+          <h3>WAR II</h3>
           <label>
-            <p> - Community Partnerships Pepe Times digital newsletter</p>
-            <p>
-              - Formation of token gated discord group, Pepe Palace, for
-              holders, more details tba
-            </p>
-            <p> - CEX Listings 10,000+holders </p>
+            <p> - CoinGecko/ Coinmarketcap Listings</p>
+            <p> - Marketing</p>
+            <p> - Army: 10,000+ holders</p>
           </label>
         </div>
         <div className="step">
-          <h3>Phase 3</h3>
+          <h3>WAR III</h3>
           <label>
-            <p> - Pepe merch</p>
-            <p> - Pepe Academy</p>
-            <p> - Pepe Tools </p>
-            <p> - T1 Exchange Listings 100,000+ holders</p>
-            <p> - Meme Takeover</p>
+            <p> - Get $CSKS Trending on Twitter</p>
+            <p> - CEX Listings</p>
+            <p> - Pledge to donate 2T coins to Cossacks Warriors fighting for freedom in Ukraine</p>
+            <p> - Army: 100,000+ holders</p>
           </label>
         </div>
       </div>

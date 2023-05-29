@@ -35,6 +35,7 @@ export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
     display: flex;
     justify-content: center;
     label {
+      padding: 0 5%;
       font-size: 24px;
       font-weight: 500;
       max-width: 900px;
@@ -55,7 +56,7 @@ export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
         margin: 0;
         padding: 0;
         font-family: Norse;
-        font-size: 28px;
+        font-size: 36px;
         font-weight: 750;
         color: black;
       }

@@ -4,7 +4,7 @@ import { device } from "../size";
 export const HeaderWrapper = styled.div`
   width: calc(100% - 10%);
   display: flex;
-  // justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 1% 5%;
   .logo {
@@ -22,7 +22,6 @@ export const HeaderWrapper = styled.div`
     }
   }
   .header-links {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -32,6 +31,7 @@ export const HeaderWrapper = styled.div`
       color: white;
       font-size: 24px;
       font-weight: 500;
+      font-family: Norse;
       transition: all 0.2s linear;
       &:hover {
         opacity: 0.7;
@@ -63,6 +63,9 @@ export const HeaderWrapper = styled.div`
   }
 
   @media ${device.mobileS} {
+    .header-links {
+      gap: 0;
+    }
     label {
       display: none;
     }
@@ -82,6 +85,8 @@ export const HeaderWrapper = styled.div`
       display: block;
     }
     .header-links {
+      width: 100%;
+      gap: 2em;
       justify-content: space-evenly;
     }
     .header-icon {
@@ -123,6 +128,7 @@ export const HeaderForPhoneStyled = styled.div`
     font-size: 24px;
     font-weight: 500;
     transition: all 0.2s linear;
+    cursor: pointer;
     &:hover {
       opacity: 0.7;
     }

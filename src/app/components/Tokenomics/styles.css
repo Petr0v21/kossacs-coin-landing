@@ -10,8 +10,51 @@
     max-width: 90%;
     width: 600px;
     min-width: 320px;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Norse';
+    letter-spacing: 0.1em;
+    font-size: 28px;
 }
 
 .spec {
     color: rgb(255, 214, 0);
+}
+
+.tokenomicsBody {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5%;
+}
+
+.tokenomicsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tokenomicsInfoContent {
+    border-radius: 12px;
+    border: 3px solid rgb(255, 214, 0);
+    padding: 1em;
+    & p {
+        text-align: start;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 782px) {
+    .tokenomicsBody {
+        flex-direction: column;
+    }
+    .tokenomicsInfoContent {
+        align-items: center;
+        & p { text-align: center; }
+    }
 }

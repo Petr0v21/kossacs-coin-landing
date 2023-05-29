@@ -124,6 +124,7 @@ export const ContentStyled = styled.div`
         border-radius: 10px;
         font-size: 42px;
         font-weight: 750;
+        font-family: Norse;
         background: linear-gradient(
           91.79deg,
           #ffd600 31.78%,
@@ -195,7 +196,7 @@ export const ContentStyled = styled.div`
           }
         }
       }
-      @media (max-width: 1024px) {
+      @media (max-width: 1054px) {
         align-items: center;
         flex-direction: column;
         gap: 2em;

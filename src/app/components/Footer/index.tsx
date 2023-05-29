@@ -33,7 +33,7 @@ export const Footer = () => {
           offset={50}
           duration={500}
         >
-          <label>Getting started</label>
+          <label>Build your Army</label>
         </Link>
         <Link
           activeClass="active"
@@ -44,6 +44,16 @@ export const Footer = () => {
           duration={500}
         >
           <label>Roadmap</label>
+        </Link>
+        <Link
+          activeClass="active"
+          to="tokenomics"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <label>Tokenomics</label>
         </Link>
         <Link
           activeClass="active"
