@@ -201,10 +201,7 @@ export const Content = () => {
         </div>
       </div>
       <label className="disclaimer">
-        Disclaimer: $CSKS coin has no association with the cartoon or PC game.
-        This token is simply a meme coin with no intrinsic value or expectation
-        of financial return. There is no formal team or roadmap. the coin is
-        completely useless and for entertainment purposes only.
+      $CSKS coin has no association with the cartoon or PC game developers. This token is simply a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.
       </label>
     </ContentStyled>
   );
