@@ -1,5 +1,5 @@
 import React from "react";
-import Graph from "../../../static/images/tokenomics.svg";
+import Graph from "../../../static/images/tokenomics.png";
 import "./styles.css";
 
 const Tokenomics: React.FC = () => {
@@ -13,14 +13,7 @@ const Tokenomics: React.FC = () => {
         <div className="tokenomicsInfo">
           <div className="tokenomicsInfoContent">
             <p>
-              <a
-                href="https://app.uniswap.org/#/swap?outputCurrency=0x5bf23d44304cc645c98f15bc2696fc0eb1ccc0c7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="spec">LP</span>
-              </a>{" "}
-              supply: <span className="spec">422,222,222,222,222</span>
+              LP supply: <span className="spec">422,222,222,222,222</span>
             </p>
             <p>
               <a
@@ -30,7 +23,7 @@ const Tokenomics: React.FC = () => {
               >
                 <span className="spec">5% allocated</span>
               </a>{" "}
-              for community development purposes.
+              for community development purposes
             </p>
             <p>
               LP tokens{" "}
@@ -43,13 +36,12 @@ const Tokenomics: React.FC = () => {
               </a>{" "}
               , contract{" "}
               <a
-                href="https://etherscan.io/tx/0x3dd72d98c8dca1430b3a004e17f1966b4789085a22632da37d88efe84430caeb"
+                href="https://etherscan.io/tx/0x3dd72d98c8dca1430b3a004e17f1966b4789085a22632da37d88efe84430caeb#eventlog"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="spec">renounced</span>
               </a>
-              .
             </p>
             <p>
               No taxes, GoPlus Token Security{" "}
