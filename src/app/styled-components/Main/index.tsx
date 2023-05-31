@@ -49,7 +49,7 @@ export const MainWrapper = styled.div`
     top: 70%;
     opacity: 0.9;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 1100px) {
     .rune {
       display: none;
     }

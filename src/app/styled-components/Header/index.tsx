@@ -38,7 +38,7 @@ export const HeaderWrapper = styled.div`
       }
     }
     .header-button {
-      box-shadow: 10px 10px 10px #7A6700;
+      box-shadow: 10px 10px 10px #7a6700;
       border-radius: 12px;
       a label {
         color: black;
@@ -77,7 +77,7 @@ export const HeaderWrapper = styled.div`
     }
   }
 
-  @media (min-width: 860px) {
+  @media (min-width: 1100px) {
     label {
       display: block;
     }

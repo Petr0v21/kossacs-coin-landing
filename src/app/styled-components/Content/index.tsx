@@ -77,7 +77,7 @@ export const ContentStyled = styled.div`
       }
     }
     label {
-      width: 60%;
+      width: 75%;
       font-size: 20px;
       font-weight: 450;
     }
@@ -109,7 +109,7 @@ export const ContentStyled = styled.div`
         width: 100%;
       }
     }
-    @media (min-width: 720px) {
+    @media (min-width: 1100px) {
       .logo-for-mobile {
         display: none;
       }

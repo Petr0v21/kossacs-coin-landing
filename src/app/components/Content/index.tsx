@@ -24,13 +24,14 @@ export const Content = () => {
           <div className="preview-main-content">
             <label>
               Introducing Cossacks: Unleashing the Spirit of Ukrainian Warriors
-              in the World of Cryptocurrency. Cossacks, a captivating and
-              deflationary meme coin, has emerged as a shining star on the
-              Ethereum blockchain. This unique digital currency pays homage to
-              the indomitable Ukrainian warriors who valiantly defend freedom in
-              the eastern reaches of our beloved country. Drawing inspiration
-              from the iconic kurgan stelae, an emblematic pagan idol, Cossacks
-              encapsulates the essence of their courageous spirit.
+              in the World of Cryptocurrency. <p />
+              Cossacks, a captivating and deflationary meme coin, has emerged as
+              a shining star on the Ethereum blockchain. This unique digital
+              currency pays homage to the indomitable Ukrainian warriors who
+              valiantly defend freedom in the eastern reaches of our beloved
+              country. Drawing inspiration from the iconic kurgan stelae, an
+              emblematic pagan idol, Cossacks encapsulates the essence of their
+              courageous spirit.
             </label>
           </div>
           <img alt="logo" src={Logo} className="logo-for-mobile" />
@@ -92,7 +93,7 @@ export const Content = () => {
             <label>
               connect to Uniswap. Go to app.uniswap.org in google chrome or on
               the browser inside your Metamask app. Connect your wallet. Paste
-              the $PEPE token address into Uniswap, select Cossacs, and confirm.
+              the $CSKS token address into Uniswap, select Cossacs, and confirm.
               When Metamask prompts you for a wallet signature, sign.
             </label>
           </div>
