@@ -55,7 +55,7 @@ export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
       h3 {
         margin: 0;
         padding: 0;
-        font-family: Monesta-Light-DEMO;
+        font-family: Norse;
         font-size: 36px;
         font-weight: 750;
         color: black;

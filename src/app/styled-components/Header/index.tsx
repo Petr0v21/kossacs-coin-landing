@@ -31,7 +31,7 @@ export const HeaderWrapper = styled.div`
       color: white;
       font-size: 24px;
       font-weight: 500;
-      font-family: Monesta-Light-DEMO;
+      font-family: Norse;
       transition: all 0.2s linear;
       &:hover {
         opacity: 0.7;
@@ -45,7 +45,7 @@ export const HeaderWrapper = styled.div`
         cursor: pointer;
         letter-spacing: 0.1em;
         padding: 0.4em 1.5em;
-        font-family: Monesta-Light-DEMO;
+        font-family: Norse;
         font-size: 24px;
         border-radius: 12px;
         background: linear-gradient(
@@ -140,7 +140,7 @@ export const HeaderForPhoneStyled = styled.div`
       cursor: pointer;
       letter-spacing: 0.1em;
       padding: 0.4em 2em;
-      font-family: Monesta-Light-DEMO;
+      font-family: Norse;
       font-size: 32px;
       border-radius: 12px;
       background: linear-gradient(
