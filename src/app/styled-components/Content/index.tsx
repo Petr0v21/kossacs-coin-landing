@@ -16,7 +16,7 @@ export const ContentStyled = styled.div`
     display: flex;
     flex-direction: column;
     padding: 0 10% 5% 10%;
-    gap: 3em;
+    // gap: 3em;
     .preview-title {
       text-align: center;
       font-size: 48px;
@@ -26,7 +26,7 @@ export const ContentStyled = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 5em;
+      gap: 1em;
       width: 100%;
       .preview-main-content {
         width: 100%;
