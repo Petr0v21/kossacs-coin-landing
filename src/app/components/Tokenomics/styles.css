@@ -34,7 +34,12 @@ h4 {
   padding-bottom: 0.1em;
 } */
 
-.tokenomicsInfoContent p a {
+.tokenomicsInfoContent p {
+  margin: 0.6em;
+}
+
+.tokenomicsInfoContent p a span {
+  color: rgb(255, 214, 0);
   transition: all 0.2s linear;
 }
 
@@ -44,11 +49,11 @@ h4 {
 
 .tokenomicsInfoContent p a::after {
   color: rgb(255, 214, 0);
-  content: "⤴";
+  content: "➚";
   position: relative;
-  bottom: 1.1em;
-  left: 0.2em;
-  font-size: 14px;
+  bottom: 0.5em;
+  left: 0.1em;
+  font-size: 24px;
   width: 8px;
   height: 8px;
 }

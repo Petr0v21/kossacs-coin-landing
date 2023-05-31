@@ -26,9 +26,11 @@ export const Roadmap: React.FC = () => {
       <h2>Roadmap</h2>
       <div className="roadmap-short-text">
         <label>
-          All jokes aside, here is a rough sketch of $cossacs path ahead. We
-          dont wan’t to give everything away on day 1, Expect surprises along
-          the way;
+          Capitalizing on the resounding success of renowned meme coins such as
+          Pepe and Dogecoin, Cossacks aims to be a successful meme-based
+          cryptocurrency as it combines cleverness, humor, and cultural
+          significance to attract a large audience and become one of the top
+          meme coins in the cryptocurrency world.
         </label>
       </div>
       <div className="roadmap-image">

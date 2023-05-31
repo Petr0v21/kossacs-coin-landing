@@ -50,7 +50,7 @@ export const RoadmapStyledWrapper = styled.div<{ animate: boolean }>`
       background: #ffd600;
       border-radius: 10px;
       width: 200px;
-      height: 400px;
+      height: 450px;
       padding: 2em;
       h3 {
         margin: 0;

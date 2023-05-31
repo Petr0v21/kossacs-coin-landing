@@ -23,20 +23,30 @@ export const Content = () => {
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
-              Cossacs is tired of watching everyone play hot potato with the
-              endless derivative Shiba Cum GME lonKishuTurbo Ass Floki Moon Inu
-              coins. The Inu’s have had their day. It’s time for the most
-              recognizable meme in the world to take his reign as king of the
-              memes.
+              Introducing Cossacks: Unleashing the Spirit of Ukrainian Warriors
+              in the World of Cryptocurrency. Cossacks, a captivating and
+              deflationary meme coin, has emerged as a shining star on the
+              Ethereum blockchain. This unique digital currency pays homage to
+              the indomitable Ukrainian warriors who valiantly defend freedom in
+              the eastern reaches of our beloved country. Drawing inspiration
+              from the iconic kurgan stelae, an emblematic pagan idol, Cossacks
+              encapsulates the essence of their courageous spirit.
             </label>
           </div>
           <img alt="logo" src={Logo} className="logo-for-mobile" />
 
           <div className="preview-secondery-content">
             <label>
-              Cossacs is here to make memecoins great again. Launched stealth
-              with no presale, zero taxes, LP burnt and contract renounced,
-              $PEPE is a coin for the people, forever.
+              Embarking on an extraordinary journey, Cossacks coin draws
+              parallels to the beloved Ukrainian cartoon, "How Cossacks...". In
+              this animated masterpiece, an anthropomorphic stone majestically
+              overlooks the hill, serving as the foundation for the valiant
+              Cossacks. This remarkable tale has captivated the hearts of many,
+              thus we embraced the iconic kurgan stelae, a symbol that resonates
+              deeply with fans of the cartoon, as the crowning symbol of the
+              Cossacks coin. Just as the stone stands tall and resolute in the
+              animated realm, so too shall Cossacks coin embody the unwavering
+              spirit and determination of its source of inspiration.
             </label>
           </div>
         </div>
@@ -110,14 +120,7 @@ export const Content = () => {
             className="contacts-content-img"
           />
           <div className="contacts-content-text">
-            <label>
-              $cossacs coin has no association with Matt Furie or his creation
-              Cossacs the Frog. This token is simply paying homage to a meme we
-              all love and recognize. $PEPE is a meme coin with no intrinsic
-              value or expectation of financial return. There is no formal team
-              or roadmap. the coin is completely useless and for entertainment
-              purposes only.
-            </label>
+            <label>You can find us at all the link icons below</label>
             <div className="icons">
               <div>
                 <a
@@ -201,7 +204,11 @@ export const Content = () => {
         </div>
       </div>
       <label className="disclaimer">
-      $CSKS coin has no association with the cartoon or PC game developers. This token is simply a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.
+        Game-developers: $CSKS coin has no association with the cartoon or PC
+        game developers. This token is simply a meme coin with no intrinsic
+        value or expectation of financial return. There is no formal team or
+        roadmap. the coin is completely useless and for entertainment purposes
+        only.
       </label>
     </ContentStyled>
   );
