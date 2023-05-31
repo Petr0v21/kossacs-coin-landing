@@ -11,7 +11,7 @@ export const FooterWrapper = styled.div`
   justify-content: center;
   align-items: center;
   .copyright {
-    font-family: Norse;
+    font-family: Monesta-Light-DEMO;
     gont-size: 12px;
     color: white;
     opacity: 0.8;

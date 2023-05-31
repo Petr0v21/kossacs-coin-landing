@@ -50,7 +50,7 @@ export const ContentStyled = styled.div`
         cursor: pointer;
         box-shadow: 10px 10px 10px #7a6700;
         label {
-          font-family: Norse;
+          font-family: Monesta-Light-DEMO;
           font-size: 30px;
           font-weight: 900;
           color: black;
@@ -129,7 +129,7 @@ export const ContentStyled = styled.div`
         border-radius: 10px;
         font-size: 42px;
         font-weight: 750;
-        font-family: Norse;
+        font-family: Monesta-Light-DEMO;
         background: linear-gradient(
           91.79deg,
           #ffd600 31.78%,
@@ -142,7 +142,7 @@ export const ContentStyled = styled.div`
         display: flex;
         flex-direction: column;
         h4 {
-          font-family: Norse;
+          font-family: Monesta-Light-DEMO;
           color: rgb(255 214 0);
           font-size: 24px;
         }

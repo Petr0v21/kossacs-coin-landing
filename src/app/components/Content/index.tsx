@@ -69,7 +69,7 @@ export const Content = () => {
           <div className="content">
             <h4>Create a Wallet</h4>
             <label>
-              download metamask or your wallet of choice from the app store or
+              Download metamask or your wallet of choice from the app store or
               google play store for free. Desktop users, download the google
               chrome extension by going to metamask.io.
             </label>
@@ -80,7 +80,7 @@ export const Content = () => {
           <div className="content">
             <h4>Get Some ETH</h4>
             <label>
-              have ETH in your wallet to switch to Cossacks. If you don’t have
+              Have ETH in your wallet to switch to Cossacks. If you don’t have
               any ETH, you can buy directly on metamask, transfer from another
               wallet, or buy on another exchange and send it to your wallet.
             </label>
@@ -91,7 +91,7 @@ export const Content = () => {
           <div className="content">
             <h4>Go to Uniswap</h4>
             <label>
-              connect to Uniswap. Go to app.uniswap.org in google chrome or on
+              Connect to Uniswap. Go to app.uniswap.org in google chrome or on
               the browser inside your Metamask app. Connect your wallet. Paste
               the $CSKS token address into Uniswap, select Cossacs, and confirm.
               When Metamask prompts you for a wallet signature, sign.
@@ -103,7 +103,7 @@ export const Content = () => {
           <div className="content">
             <h4>Switch ETH for Cossacks</h4>
             <label>
-              switch ETH for Cossacks. We have ZERO taxes so you don’t need to
+              Switch ETH for Cossacks. We have ZERO taxes so you don’t need to
               worry about buying with a specific slippage, although you may need
               to use slippage during times of market volatility.
             </label>
@@ -206,7 +206,7 @@ export const Content = () => {
       <label className="disclaimer">
         $CSKS coin has no association with the cartoon or PC game developers.
         This token is simply a meme coin with no intrinsic value or expectation
-        of financial return. There is no formal team or roadmap. the coin is
+        of financial return. There is no formal team or roadmap. The coin is
         completely useless and for entertainment purposes only.
       </label>
     </ContentStyled>
