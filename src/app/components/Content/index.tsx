@@ -24,7 +24,7 @@ export const Content = () => {
           <div className="preview-main-content">
             <label>
               Introducing Cossacks: Unleashing the Spirit of Ukrainian Warriors
-              in the World of Cryptocurrency. <p />
+              in the World of Crypto. <p />
               Cossacks, a captivating and deflationary meme coin, has emerged as
               a shining star on the Ethereum blockchain. This unique digital
               currency pays homage to the indomitable Ukrainian warriors who
