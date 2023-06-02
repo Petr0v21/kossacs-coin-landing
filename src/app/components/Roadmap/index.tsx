@@ -58,11 +58,7 @@ export const Roadmap: React.FC = () => {
           <label>
             <p> - Get $CSKS Trending on Twitter</p>
             <p> - CEX Listings</p>
-            <p>
-              {" "}
-              - Pledge to donate 2T coins to Cossacks Warriors fighting for
-              freedom in Ukraine
-            </p>
+            <p> - A pledge to donate 2T coins to Ukrainian Army</p>
             <p> - Army: 100,000+ holders</p>
           </label>
         </div>
