@@ -19,7 +19,7 @@ export const Content = () => {
   return (
     <ContentStyled>
       <div className="preview" id="test1">
-        <h2 className="preview-title">Cossacs</h2>
+        <h2 className="preview-title">Cossacks</h2>
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
@@ -93,8 +93,8 @@ export const Content = () => {
             <label>
               Connect to Uniswap. Go to app.uniswap.org in google chrome or on
               the browser inside your Metamask app. Connect your wallet. Paste
-              the $CSKS token address into Uniswap, select Cossacs, and confirm.
-              When Metamask prompts you for a wallet signature, sign.
+              the $CSKS token address into Uniswap, select Cossacks, and
+              confirm. When Metamask prompts you for a wallet signature, sign.
             </label>
           </div>
         </div>

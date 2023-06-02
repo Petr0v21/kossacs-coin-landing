@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <FooterWrapper>
       <label className="copyright">
-        © 2023 by Cossacs. All rights reserved!
+        © 2023 by Cossacks. All rights reserved!
       </label>
     </FooterWrapper>
   );
