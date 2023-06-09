@@ -40,14 +40,15 @@ export const Roadmap: React.FC = () => {
         <div className="step">
           <h3>War I</h3>
           <label>
-            <p> - Token Launch</p>
-            <p> - Website</p>
-            <p> - Army Base </p>
+            <p> ✓ Token Launch</p>
+            <p> ✓ Website</p>
+            <p> ✓ Army Base </p>
           </label>
         </div>
         <div className="step">
           <h3>WAR II</h3>
           <label>
+            <p> ✓ Etherscan listing</p>
             <p> - CoinGecko/ Coinmarketcap Listings</p>
             <p> - Marketing</p>
             <p> - Army: 10,000+ holders</p>
