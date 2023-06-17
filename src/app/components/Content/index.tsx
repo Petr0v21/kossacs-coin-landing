@@ -23,15 +23,13 @@ export const Content = () => {
         <div className="preview-content">
           <div className="preview-main-content">
             <label>
-              Introducing Cossacks: Unleashing the Spirit of Ukrainian Warriors
-              in the World of Crypto. <p />
-              Cossacks, a captivating and deflationary meme coin, has emerged as
-              a shining star on the Ethereum blockchain. This unique digital
-              currency pays homage to the indomitable Ukrainian warriors who
-              valiantly defend freedom in the eastern reaches of our beloved
-              country. Drawing inspiration from the iconic kurgan stelae, an
-              emblematic pagan idol, Cossacks encapsulates the essence of their
-              courageous spirit.
+            Unleashing the Spirit of Ukrainian Warriors into the World of Crypto.
+            Cossacks meme token was created as a tribute to the Ukrainian Warriors. With a vision to contribute to the victory, freedom, and peace of the Ukrainian nation, Cossacks Token has set out on a mission that extends far beyond the realm of finance. 
+            Drawing inspiration from the rich history of the Cossacks, a renowned group of warriors who played a pivotal role in Ukraine's past, Cossacks Token aims to honour their legacy and keep their spirit alive in the modern era. Just as the Cossacks protected and fought for their land, this crypto project aspires to support the Ukrainian nation and its people. One of the primary objectives of the Cossacks Token project is to raise awareness about Ukrainian history, culture, and the importance of national unity. 
+            Through strategic partnerships, educational campaigns, and community engagement, the project aims to bridge the gap between the past and present, highlighting the significant contributions of the Cossacks and their enduring influence on Ukrainian identity. 
+            Cossacks Token is more than just a cryptocurrency; it is a platform for like-minded individuals who share a common goal of uplifting Ukraine and its people. In the rapidly expanding landscape of cryptocurrencies, trust and security are paramount. Cossacks Token recognises this, and to ensure the integrity of its ecosystem, the project implemented all the necessary steps, such as renouncing contract ownership and burning all LP tokens in possession. By prioritising transparency and accountability, Cossacks Token strives to establish confidence in its community, fostering a strong foundation for sustainable growth. 
+            As the journey of Cossacks Token unfolds, it promises to be an embodiment of resilience, unity, and progress. By leveraging the power of blockchain technology and the passion of its community, the project aspires to leave a lasting impact on the Ukrainian nation, symbolising the triumph of its warriors both past and present. Through this innovative tribute, Cossacks Token seeks to rewrite the narrative of crypto projects, blending financial advancement with cultural preservation and philanthropic endeavours. 
+            Join the ranks of Cossacks and be a part of the movement to honour the Ukrainian warriors, celebrate freedom, and contribute to the prosperity of a nation. Together, we can forge a brighter future, driven by the spirit of the Cossacks.
             </label>
           </div>
           <img alt="logo" src={Logo} className="logo-for-mobile" />
