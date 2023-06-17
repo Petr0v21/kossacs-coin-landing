@@ -34,7 +34,7 @@ export const Content = () => {
           </div>
           <img alt="logo" src={Logo} className="logo-for-mobile" />
 
-          <div className="preview-secondery-content">
+          {/* <div className="preview-secondery-content">
             <label>
               Embarking on an extraordinary journey, Cossacks coin draws
               parallels to the beloved Ukrainian cartoon, "How Cossacks...". In
@@ -47,7 +47,7 @@ export const Content = () => {
               animated realm, so too shall Cossacks coin embody the unwavering
               spirit and determination of its source of inspiration.
             </label>
-          </div>
+          </div> */}
         </div>
 
         <div className="preview-button">
